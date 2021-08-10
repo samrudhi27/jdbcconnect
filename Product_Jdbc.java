@@ -11,7 +11,7 @@ public class Product_Jdbc {
 		String url="jdbc:mysql://localhost:3306/product_info";
 		String username="root";
 		String password="root";
-		String createtable="create table product1(prodId int(4), prodName varchar(20), prodPrice int(5), inStock varchar(4));";
+		String createtable="create table product(prodId int(4), prodName varchar(20), prodPrice int(5), inStock varchar(4));";
 		
 		String insertCommand="insert into product values(1,'lg tv',35000,'yes');";
 		int i=0;
